@@ -1,0 +1,58 @@
+/* particleground demo */
+#particles {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+/* background color */
+  background: #000010;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  line-height: 1.3;
+  -webkit-font-smoothing: antialiased;
+}
+
+#intro {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  padding: 0 10px;
+  width: 100%;
+  text-align: center;
+}
+
+
+#name {
+  text-transform: uppercase;
+  font-size: 50px;
+  font-weight: 120;
+  color: #ffffff;
+  letter-spacing: 0.05em;
+}
+h1::after {
+  content: '';
+  width: 80px;
+  display: block;
+  background: #fff;
+  height: 10px;
+  margin: 30px auto;
+  line-height: 1.1;
+}
+
+/* Handwritten style */
+#role {
+  font: 400 100px/1.3 'Arizonia', Helvetica, sans-serif;
+  color: #ffffff;
+  font-size: 50px;
+  text-align: center;
+  text-shadow: 4px 4px 0px rgba(0,0,0,0.1);
+}
+
+/* remove space */
+.subintro #name {
+  text-align: center;
+  margin: 0;
+}
+.subintro #role {
+  text-align: center;
+  margin-top:  -7%;
+}
