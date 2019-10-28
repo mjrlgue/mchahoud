@@ -120,6 +120,12 @@ h1 span {
 
 }
 
+/* title of each section */
+#title {
+  color: grey;
+  font: 200 100px/1.3 'Montserrat', Helvetica, sans-serif
+}
+
 @media only screen and (max-width: 600px) {
 
    div.container {
