@@ -113,6 +113,10 @@ h1 span {
      flex-wrap: wrap;
 }
 
+/* fade in/out ui-cards */
+.fadein {
+    opacity:0;
+}
 
 
 /* tag style */
