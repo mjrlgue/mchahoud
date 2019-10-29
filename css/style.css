@@ -99,11 +99,21 @@ h1 span {
 }
 
 .card-container {
-  font-size: 0.25em;
-  height: 40%;
+  font-size: 0.22em;
   word-spacing: 0.1em;
   letter-spacing: normal
 }
+.cent{
+  display: flex;
+     justify-content: center;
+     align-items: center;
+     align-content: center;
+     height: 70%;
+     position: relative;
+     flex-wrap: wrap;
+}
+
+
 
 /* tag style */
 .tags {
@@ -188,7 +198,7 @@ h1 span {
 /* title of each section */
 #title {
   color: grey;
-  font: 200 100px/1.3 'Montserrat', Helvetica, sans-serif
+  font: 150 100px/1.3 'Montserrat', Helvetica, sans-serif
 }
 
 @media only screen and (max-width: 600px) {
