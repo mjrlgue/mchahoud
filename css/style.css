@@ -215,7 +215,7 @@ h1 span {
 .toBottom{
   top: 80%;
   font-size: 0.7em;
-  position: relative;
+  position: absolute;
 }
 
 @media screen and (max-width: 768px) {
