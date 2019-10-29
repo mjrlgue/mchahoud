@@ -17,7 +17,7 @@ h1 span {
    font-weight: 600;
 }
 
-.container {
+.container-edu {
 
   letter-spacing: normal;
   background: #F1F2F6;
@@ -27,7 +27,7 @@ h1 span {
    overflow: hidden;
 }
 
-.container:before {
+.container-edu:before {
    content: '';
    position: absolute;
    top: 0;
@@ -185,6 +185,39 @@ h1 span {
   background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
+
+/* contact me */
+#container-cme {
+    display: flex; /* establish flex container */
+    flex-direction: column; /* make main-axis vertical */
+    justify-content: center; /* align items vertically, in this case */
+    align-items: center; /* align items horizontally, in this case */
+    height: 50%; /* for demo purposes */
+    /* border: 1px solid black; /* for demo purposes */
+    /* background-color: #eee; /* for demo purposes */
+    font-size: 0.22em;
+    word-spacing: 0.1em;
+    letter-spacing: normal
+}
+
+.box {
+    width: 300px;
+    margin: 5px;
+    text-align: center;
+    color: grey;
+}
+
+#looking{
+  font: 1000 1.5em 'Montserrat', Helvetica, sans-serif;
+  color: grey
+}
+
+.toBottom{
+  top: 80%;
+  font-size: 0.7em;
+  position: relative;
+}
+
 @media screen and (max-width: 768px) {
    .container:before {
       left: 8px;

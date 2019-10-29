@@ -15,6 +15,9 @@
 <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300" rel="stylesheet">
 <!-- semantic ui -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.css"/>
+<!-- clipboard css -->
+<link rel="stylesheet" href="https://clipboardjs.com/bower_components/primer-css/css/primer.css"/>
+<!-- <link rel="stylesheet" href="https://clipboardjs.com/assets/styles/main.css"/> -->
 <!-- css for timeline -->
 
   <title>Marwane Chahoud | Junior Datascientist</title>
@@ -31,6 +34,8 @@
   </style>
 <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
   <script src="js/sailnote.js"></script>
+  <!-- clipboard js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.7.1/clipboard.min.js"></script>
   <!-- particles -->
   <script type="text/javascript" src="js/jquery.particleground.js"></script>
   <script type="text/javascript" src="js/demo.js"></script>
@@ -39,6 +44,8 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.js"></script>
   <!-- moment js-->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment.min.js"></script>
+  <!-- iconify -->
+  <script src="https://code.iconify.design/1/1.0.3/iconify.min.js"></script>
 </head>
 <body>
 <div class="sn-slide" id="particles">
@@ -57,7 +64,7 @@
 
 </div>
   <div class="sn-slide" sn-id="fadeIn">
-    <div class="container">
+    <div class="container-edu">
      <span id="title">Education</span>
      <div class="timeline-block timeline-block-right">
         <div class="marker"></div>
@@ -170,6 +177,35 @@
   <div class="sn-slide" style="background-color:#977BD5">Under construction</div>
   <div class="sn-slide contactbg">
     <span id="title">Contact me</span>
+    <div id="container-cme"><!-- flex container -->
+      <!-- <div class="ui cards"> -->
+        <div class="box" id=""><!-- flex item -->
+            <p id="looking">I'm looking forward to getting in touch with you
+              <!-- Example #1 - no styling -->
+<!-- Made with ❤ in Switzerland
+
+<!-- Example #2 - inline-styled ❤ -->
+<!-- Made with <span style="color: #e25555;">&#9829;</span> in Switzerland
+Made with <span style="color: #e25555;">&hearts;</span> in Switzerland -->
+
+        </div>
+
+        <div class="box" id="redbox"><!-- flex item -->
+            <div class="input-group">
+            <input id="foo" type="text" value="marwane.chahoud@gmail.com">
+              <span class="input-group-button">
+                <button class="btn" type="button" data-clipboard-demo="" data-clipboard-target="#foo">
+                  <img class="clippy" src="https://clipboardjs.com/assets/images/clippy.svg" width="13" alt="Copy to clipboard">
+                </button>
+              </span>
+            </div>
+        </div>
+
+        <div class="box toBottom center">
+        <style>.heart{color:#e25555;}</style>
+        Made with <span class="heart">❤</span> in France
+        </div>
+    </div>
   </div>
 
 
@@ -210,6 +246,47 @@
 });
   </script>
 
+</script>
+<!-- mail clipboard -->
+<script>
+var clipboardDemos = new Clipboard('[data-clipboard-demo]');
+
+clipboardDemos.on('success', function(e) {
+e.clearSelection();
+
+console.info('Action:', e.action);
+console.info('Text:', e.text);
+console.info('Trigger:', e.trigger);
+
+showTooltip(e.trigger, 'Copied!');
+});
+
+clipboardDemos.on('error', function(e) {
+console.error('Action:', e.action);
+console.error('Trigger:', e.trigger);
+
+showTooltip(e.trigger, fallbackMessage(e.action));
+});
+
+// tooltips.js
+
+var btns = document.querySelectorAll('.btn');
+
+for (var i = 0; i < btns.length; i++) {
+btns[i].addEventListener('mouseleave', clearTooltip);
+btns[i].addEventListener('blur', clearTooltip);
+}
+
+function clearTooltip(e) {
+e.currentTarget.setAttribute('class', 'btn');
+e.currentTarget.removeAttribute('aria-label');
+}
+
+function showTooltip(elem, msg) {
+elem.setAttribute('class', 'btn tooltipped tooltipped-s');
+elem.setAttribute('aria-label', msg);
+}
+</script>
 
 </body>
 </html>
