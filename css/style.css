@@ -204,7 +204,7 @@ h1 span {
 #container-ame{
   position: absolute;
   margin: auto;
-  top: -20%;
+  top: -35%;
   right: 0;
   bottom: 0;
   left: 0;
@@ -214,6 +214,32 @@ h1 span {
   word-spacing: 0.1em;
   letter-spacing: normal;
   font:   600 0.25em 'Montserrat', Helvetica, sans-serif;
+}
+
+#skills{
+  position: absolute;
+  margin: auto;
+  top:  -10%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 90%;
+  height: 20%;
+
+}
+.cont{
+  font-size: 0.22em;
+  word-spacing: 0.1em;
+  letter-spacing: normal;
+  font:   1000 0.21em 'Montserrat', Helvetica, sans-serif;
+}
+
+
+
+#skill{
+  font: 200 0.8em 'Montserrat', Helvetica, sans-serif;
+  color: #eee;
+  text-shadow: 4px 4px 0px rgba(0,0,0,0.1);
 }
 
 
@@ -227,7 +253,8 @@ h1 span {
 
 .tags li {
   float: left;
-  font-size: 0.7em
+  font-size: 0.7em;
+  display: inline;
 }
 
 .tag {
@@ -239,7 +266,7 @@ h1 span {
   line-height: 26px;
   padding: 0 20px 0 23px;
   position: relative;
-  margin: 0 10px 10px 0;
+  margin: 0 5px 5px 0;
   text-decoration: none;
   -webkit-transition: color 0.2s;
 }
