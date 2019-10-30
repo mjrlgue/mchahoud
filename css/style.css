@@ -242,7 +242,13 @@ h1 span {
   text-shadow: 4px 4px 0px rgba(0,0,0,0.1);
 }
 
+/* projets */
+.projectbg{
+  background: #141E30;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
+}
 /* tag style */
 .tags {
   list-style: none;
@@ -367,7 +373,7 @@ h1 span {
 /* title of each section */
 #title {
   color: grey;
-  font: 150 100px/1.3 'Montserrat', Helvetica, sans-serif
+  font: 200 100px/1.3 'Montserrat', Helvetica, sans-serif
 }
 
 @media only screen and (max-width: 600px) {
