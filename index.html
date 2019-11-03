@@ -331,11 +331,27 @@ Made with <span style="color: #e25555;">&hearts;</span> in Switzerland -->
         <style>.heart{color:#e25555;}</style>
         <!-- Made with <span class="heart">❤</span> in France -->
         <!-- <span class="octicon mega-octicon octicon-code"> with <span class="heart octicon-heart"></span> in France.</span -->
-           Made with <span class="heart">❤</span> in France
+           Made with <span class="heart" id="lilFlick" onclick="changeText()">❤</span> in France
         </div>
     </div>
   </div>
 
+<script>
+  function changeText(){
+    var span = document.getElementById("lilFlick");
+    console.log(span.textContent);
+    if('❤' == span.textContent){
+      span.textContent='Kylie';
+    } else {
+      span.textContent='❤';
+    }
+  }
+//   document.getElementById("lilFlick").onclick = function() {myFunction()};
+//
+// function myFunction() {
+//   document.getElementById("lilFlick").innerHTML = "YOU CLICKED ME!";
+// }
+</script>
 
   <script>
     $(function(){
