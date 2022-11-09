@@ -24,6 +24,18 @@ body{
   background:#000;
 }
 
+.typewrite { 
+  color:#fff; 
+  text-decoration: none;
+  text-align: center;
+  color:#fff;
+  padding-top:10em;
+  letter-spacing: 2px;
+}
+h1::after {
+  width: 0px;
+}
+
 .indicator{
 position:absolute;
 width:50px;
