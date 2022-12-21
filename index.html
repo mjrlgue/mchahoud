@@ -1,562 +1,295 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en" >
 <head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- css style -->
-<link rel="stylesheet" href="css/mystyle.css" />
-<link rel="stylesheet" href="css/style.css" />
-<!-- fb icons -->
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" type="text/css">
+  <!-- Original template from: https://codepen.io/SquishyAndroid/pen/XjRPVV -->
+  <meta charset="UTF-8">
+  <title>Marwane CHAHOUD</title>
+  <meta name="description" content="Data engineer">
+  <link href='https://fonts.googleapis.com/css?family=Raleway:100,200,400,600' rel='stylesheet' type='text/css'>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.4/jquery.fullPage.min.css" rel="stylesheet" type="text/css">
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"> -->
 
-<!-- Handwritten style -->
-<link href='https://fonts.googleapis.com/css?family=Arizonia' rel='stylesheet' type='text/css'>
-<link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300" rel="stylesheet">
-<!-- semantic ui -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.css"/>
-<!-- clipboard css -->
-<link rel="stylesheet" href="https://clipboardjs.com/bower_components/primer-css/css/primer.css"/>
-<!-- <link rel="stylesheet" href="https://clipboardjs.com/assets/styles/main.css"/> -->
-<!-- aos : https://michalsnik.github.io/aos/ -->
-<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-<!-- octicon -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/3.5.0/octicons.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/3.0.1/css/primer.css">
-<!-- css for timeline -->
-
-  <title>Marwane Chahoud | Data engineer/scientist</title>
-  <style>
-  * { padding:0; margin:0;}
-    html, body {
-      height: 100%;
-      font-family: helvetica, arial, sans-serif;
-      font-size: 64px;
-      font-weight: bold;
-      letter-spacing: -3px;
-      color: #fff;
-    }
-  </style>
-<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-  <script src="js/sailnote.js"></script>
-  <!-- clipboard js -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.7.1/clipboard.min.js"></script>
-  <!-- particles -->
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'><link rel="stylesheet" href="css/style.css">
+  <!-- clipboard -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.10/clipboard.min.js"></script>
+  <!-- tooltip css from <link rel="stylesheet" href="https://clipboardjs.com/bower_components/primer-css/css/primer.css"/> -->
+  <!-- particles, https://github.com/jnicol/particleground -->
   <script type="text/javascript" src="js/jquery.particleground.js"></script>
   <script type="text/javascript" src="js/demo.js"></script>
-  <!-- semantic UI cdn -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.js"></script>
-  <!-- moment js-->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment.min.js"></script>
-  <!-- iconify -->
-  <script src="https://code.iconify.design/1/1.0.3/iconify.min.js"></script>
-  <!-- aos -->
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <!-- typewrite effect -->
-  <script type="text/javascript" src="js/type-write.js"></script>
+  <!-- particles 2 -->
+  <!-- <script src="js/particles2/particles.js"></script>
+  <script src="js/particles2/app.js"></script> -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-152631628-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-152631628-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-152631628-1');
-</script>
-  <!-- LinkedIn badge -->
-<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+    gtag('config', 'UA-152631628-1');
+  </script>
 </head>
 <body>
-<div class="sn-slide" id="particles">
-  <div id="intro">
-    <div class="subintro">
-    <!-- <h2 id="name" style="font-family: 'Syncopate', sans-serif; font-weight: 10;">Marwane Chahoud</h2> -->
-    <h1>
-      <a href="" class="typewrite" data-period="1500" data-type='[ "Hi, Im Marwane Chahoud", "I am a Data engineer & scientist.", "I am an Elastic certified engineer", "and this is my porfolio 😄." ]'>
-        <span class="wrap"></span>
-      </a>
-    </h1>
-    <!-- <br><br><h3 id="role">Data Engineer/Scientist</h3> -->
-
-    <center><hr style="width: 50%; background-color: #E83951; border-color: #E83951;"></center>
-    <a href="https://linkedin.com/in/marwane-chahoud-199409126/" target="_blank" style="color: white;"><i class="fab fa-linkedin" style="font-size: 0.5em;"></i></a>
-    &nbsp
-    <a href="https://github.com/mjrlgue" target="_blank" style="color: white;"><i class="fab fa-github" style="font-size: 0.5em;"></i></a>
-    &nbsp
-    <a href="https://twitter.com/ChahoudMarwane" target="_blank" style="color: white;"><i class="fab fa-twitter" style="font-size: 0.5em;"></i></a>
-</div>
-<div class="indicator">
-  <span></span>
-  <span></span>
-  <span></span>
-  <span></span>
-   <span></span>
-</div>
-</div>
-<br>
-
-</div>
-
-  <div class="sn-slide aboutmebg">
-    <span id="title">About me</span>
-    <div id="container-ame" data-aos="fade-up">
-    <p>Hi, I'm Marwane Chahoud, I wear a double hat (Data engineer & science ;)). Since my childhood, I was impressed by technology especially computer science.
-    My journey about data started since 2015, and still going! Currently my main technologies are: Elastic, Kubernetes, Docker, and so on (for sure you know the long list :D).
-    </p>
+<!-- partial:index.partial.html -->
+<body>
+  <!-- navbar header -->
+  <div class="nav-header">
+    <div class="nav-brand">
+      <!-- <img src="https://yourLogo"> -->
     </div>
+    <i class="fa fa-bars fa-3x"></i>
+    <div class="header-links">
+      <ul>
+        <li data-menuanchor="fifthPage"><a href="#contact">CONTACT</a></li>
+        <li data-menuanchor="thirdPage"><a href="#portfolio">PORTFOLIO</a></li>
+        <li data-menuanchor="fourthPage"><a href="#certifications">CERTIFICATIONS</a></li>
+        <li data-menuanchor="secondPage"><a href="#about">ABOUT</a></li>
+      </ul>
+    </div>
+  </div>
+  <!-- end navbar header -->
+
+  <!-- sidebar slider -->
+  <div class="nav-screen">
+    <i class="fa fa-times fa-3x"></i>
+    <div class="nav-container">
+      <div class="nav-links">
+        <ul id='myMenu'>
+          <li data-menuanchor="secondPage"><a href="#about">ABOUT</a></li>
+          <li data-menuanchor="thirdPage"><a href="#portfolio">PORTFOLIO</a></li>
+          <li data-menuanchor="fourthPage"><a href="#certifications">CERTIFICATIONS</a></li>
+          <li data-menuanchor="fifthPagePage"><a href="#contact">CONTACT</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- end navbar slider -->
+
+  <!-- begin fullpage -->
+
+  <div id="fullpage">
+
+    <!-- begin section -->
+
+    <div class="section aboutme" id="particles">
+      <div class="opaque-bg animated fadeInDown" id="innerAboutme">
+        <h1 style="color:white">Marwane<span style="color:#1b06fe">/</span>CHAHOUD</h1>
+        <p><span id="holder"></span><span class="blinking-cursor">|</span></p>
+      </div>
+      <i id="moveDown" class="fa fa-chevron-down fa-3x bounce"></i>
+    </div>
+    <!-- end section -->
+
+    <!-- begin section -->
+
+    <div class="section" data-anchor="skills">
+      <div class="content">
+        <h1 class="wow fadeInDown" data-wow-delay="0.2s">ABOUT ME</h1>
+        <p class="wow fadeInDown" data-wow-delay="0.2s">Hi, I'm Marwane Chahoud! I'm a data engineer based in Paris mainly interested in new technologies, cloud and distributed systems. And of course <b><i>learning is continuous..</i></b>😉</p>
+
+        <div class=" wow fadeInUp container-skillbar" data-wow-delay="0.2s">
+          <div class="skillbar clearfix " data-percent="90%">
+            <div class="skillbar-title" style="background: #7DE2D1;"><a href="https://wwww.elastic.co" target="_blank"><span>Elastic</span></a></div>
+            <div class="skillbar-bar" style="background: #7DE2D1"></div>
+            <div class="skill-bar-percent">90%</div>
+          </div> <!-- End Skill Bar -->
+
+          <div class="skillbar clearfix " data-percent="80%">
+            <div class="skillbar-title" style="background: #326DE6;"><a href="https://wwww.kubernetes.io" target="_blank"><span>Kubernetes</span></a></div>
+            <div class="skillbar-bar" style="background: #326DE6;"></div>
+            <div class="skill-bar-percent">80%</div>
+          </div> <!-- End Skill Bar -->
+
+          <div class="skillbar clearfix " data-percent="75%">
+            <div class="skillbar-title" style="background: #003F8C;"><a href="https://www.docker.com/" target="_blank"><span>Docker</span></a></div>
+            <div class="skillbar-bar" style="background: #003F8C;"></div>
+            <div class="skill-bar-percent">75%</div>
+          </div> <!-- End Skill Bar -->
+
+          <div class="skillbar clearfix " data-percent="70%">
+            <div class="skillbar-title" style="background: #36B8ED;"><a href="https://azure.microsoft.com/" target="_blank"><span>Cloud:Azure</span></a></div>
+            <div class="skillbar-bar" style="background: #36B8ED;"></div>
+            <div class="skill-bar-percent">70%</div>
+          </div> <!-- End Skill Bar -->
+
+          <div class="skillbar clearfix " data-percent="60%">
+            <div class="skillbar-title" style="background: #36B8ED;"><a href="https://devops.azure.com/" target="_blank"><span>DevOps</span></a></div>
+            <div class="skillbar-bar" style="background: #36B8ED;"></div>
+            <div class="skill-bar-percent">60%</div>
+          </div> <!-- End Skill Bar -->
+
+          <div class="skillbar clearfix " data-percent="60%">
+            <div class="skillbar-title" style="background: #AB4DD2;"><a href="#" target="_blank"><span>Machine Learning</span></a></div>
+            <div class="skillbar-bar" style="background: #AB4DD2;"></div>
+            <div class="skill-bar-percent">60%</div>
+          </div> <!-- End Skill Bar -->
+        </div>
+      </div>
+    </div>
+    <!-- end section -->
+
+    <!-- begin section -->
+
+    <div class="section" data-anchor="projects">
+      <div class="content-slide">
+        <div class="slide">
+          <h1 class="wow fadeInDown" data-wow-delay="0.2s">Elastic engineer</h1>
+          <p class="wow fadeInDown" data-wow-delay="0.2s">Building distributed search engine and analytic platforms using the Elastic stack.</p>
+          <img class="wow fadeInUp" data-wow-delay="0.2s" data-src="https://images.contentstack.io/v3/assets/bltefdd0b53724fa2ce/blt280217a63b82a734/6202d3378b1f312528798412/elastic-logo.svg">
+        </div>
+        <div class="slide">
+          <h1>Azure</h1>
+          <p>Move to cloud using Azure services (Databricks, Data factory, Logic apps, and much more)</p>
+          <img data-src="https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-ar21.png">
+        </div>
+        <div class="slide">
+          <h1>Elastic junior engineer</h1>
+          <p>Build the Elastic stack on Azure Cloud + Observability.</p>
+          <img width="100" height="100" data-src="https://images.contentstack.io/v3/assets/bltefdd0b53724fa2ce/blt280217a63b82a734/6202d3378b1f312528798412/elastic-logo.svg">
+        </div>
+        <div class="slide">
+          <h1>Splunk</h1>
+          <p>Internship: Using Splunk with GDPR law to build a compliant search/analytic platform.</p>
+          <img data-src="https://www.splunk.com/content/dam/splunk-logo-dark.svg">
+        </div>
+        <div class="slide">
+          <h1>Elastic, Terraform & Ansible on Azure</h1>
+          <p>Use Terraform and Ansible to provision an Elastic cluster.</p>
+          <img data-src="https://miro.medium.com/max/431/0*7eAY1GL-D-fFn3_x.png">
+        </div>
+        <div class="slide">
+          <h1>Datawarehouse</h1>
+          <p>Using OBIEE to build an on-premise datawarehouse.</p>
+          <img data-src="https://www.mindstreamanalytics.com/images/oracle-bi-logo-600x228.png">
+        </div>
+      </div>
+    </div>
+    <!-- end section -->
+
+    <!-- begin section -->
+    <div class="section" data-anchor="certifications">
+      <div class="content-slide">
+        <div class="slide">
+          <h1 class="wow fadeInDown" data-wow-delay="0.2s">Elastic Certified Engineer</h1>
+          <!-- <p>Internship: Using Splunk with GDPR law to build a compliant search platform.</p> -->
+          <a class="wow fadeInDown" data-wow-delay="0.2s" href="https://certified.elastic.co/5f12e784-ccd7-46bb-b0be-84ea1e1c40d5" target="_blank">
+            <img class="wow fadeInDown" data-wow-delay="0.2s" data-src="https://templates.images.credential.net/15874175709991398101920456636956.png" href>
+          </a>
+        </div>
+        <div class="slide">
+          <h1>Elastic Certified Analyst</h1>
+          <!-- <p>Internship: Using Splunk with GDPR law to build a compliant search platform.</p> -->
+          <a href="https://certified.elastic.co/07399561-7a16-4358-bf55-c01421d00a39" target="_blank">
+            <img data-src="https://templates.images.credential.net/15861996777462801416631402521582.png" href>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- end section -->
+
+    <!-- begin section -->
+    <div class="section" data-anchor="contact">
+      <div class="content wow fadeInDown" data-wow-delay="0.2s">
+        <h1>CONTACT ME</h1>
+        <p>Whether you're interested in working with me or just want to say hello, I'd love to hear from you!</p>
+        <br>
+
+        <div class="result-container">
+          <!-- <span id="result"></span> -->
+          <input id="inputMail" value="marwane.chahoud@gmail.com">
+          <button class="btn" id="clipboard" data-clipboard-target="#inputMail" data-clipboard-demo="">
+            <i class="far fa-clipboard"></i>
+          </button>
+        </div>
+        
+        
 
 
-        <div id="skills" data-aos="fade-down">
-          <div class="ui horizontal divider">
-          <span id="skill">Skills</span>
-          </div>
-          <!-- here -->
-          <div class="ui cards cont">
+        <!-- <div class="contact-form">
 
-            <div class="card">
-              <div class="content">
-                <div class="header">Data science &amp; Machine Learning</div>
-                <div class="description">
-                  <ul class="tags">
-                    <li><a href="#" class="tag">Deep Learning</a></li>
-                    <li><a href="#" class="tag">Text mining</a></li>
-                    <li><a href="#" class="tag">Machine Learning</a></li>
-                    <li><a href="#" class="tag">Data analysis</a></li>
-                    <li><a href="#" class="tag">Keras</a></li>
-                    <li><a href="#" class="tag">Tensorflow</a></li>
-                    <li><a href="#" class="tag">Scikit-learn</a></li>
-                    <li><a href="#" class="tag">Hadoop/Spark</a></li>
-                    <li><a href="#" class="tag">Data Mining</a></li>
-                </ul>
-                </div>
-              </div>
+          <div id="form-messages"></div>
+          <form id="ajax-contact" method="post" role="form" action="contact.php" data-toggle="validator">
+            <div class="form-group has-feedback wow fadeInLeft" data-wow-delay="0.6s">
+              <input type="text" class="form-control" id="name" name="name" placeholder="NAME" data-error="Field can't be blank!" required>
+              <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+              <div class="help-block with-errors"></div>
             </div>
 
-            <div class="card">
-              <div class="content">
-                <div class="header">Data Engineering</div>
-                <div class="description">
-                  <ul class="tags">
-                    <li><a href="#" class="tag">Elastic</a></li>
-                    <li><a href="#" class="tag">Kubernetes</a></li>
-                    <li><a href="#" class="tag">Docker</a></li>
-                    <li><a href="#" class="tag">Observability</a></li>
-                    <li><a href="#" class="tag">Terraform</a></li>
-                    <li><a href="#" class="tag">Cloud</a></li>
-                    <li><a href="#" class="tag">Azure</a></li>
-                    <li><a href="#" class="tag">CI/CD</a></li>
-                    <li><a href="#" class="tag">Continuous learning...</a></li>
-                </ul>
-                </div>
-              </div>
+            <div class="form-group has-feedback wow fadeInRight" data-wow-delay="0.8s">
+              <input type="email" class="form-control" id="email" name="email" placeholder="EMAIL" data-error="Field can't be blank!" required>
+              <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+              <div class="help-block with-errors"></div>
             </div>
 
-
-            <div class="card">
-              <div class="content">
-                <div class="header">Programming</div>
-                <div class="description">
-                  <ul class="tags">
-                    <li><a href="#" class="tag">Python</a></li>
-                    <li><a href="#" class="tag">R</a></li>
-                    <li><a href="#" class="tag">SAS</a></li>
-                    <li><a href="#" class="tag">Java</a></li>
-                    <li><a href="#" class="tag">GPGPU</a></li>
-                    <li><a href="#" class="tag">JavaScript/ES6</a></li>
-                    <li><a href="#" class="tag">Scala</a></li>
-                    <li><a href="#" class="tag">C/C++/C#</a></li>
-                    <li><a href="#" class="tag">Git</a></li>
-                    <li><a href="#" class="tag">Design pattern</a></li>
-                </ul>
-                </div>
-              </div>
+            <div class="form-group has-feedback wow fadeInLeft" data-wow-delay="1s">
+              <textarea data-minlength="10" class="form-control" id="message" name="message" placeholder="MESSAGE" data-error="Minimum of 10 characters" required></textarea>
+              <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+              <div class="help-block with-errors"></div>
             </div>
 
-
-            <div class="card">
-              <div class="content">
-                <div class="header">Web</div>
-                <div class="description">
-                  <ul class="tags">
-                    <li><a href="#" class="tag">Spring</a></li>
-                    <li><a href="#" class="tag">React/Angular</a></li>
-                    <li><a href="#" class="tag">NodeJs</a></li>
-                    <li><a href="#" class="tag">MySql</a></li>
-                    <li><a href="#" class="tag">PHP</a></li>
-                    <li><a href="#" class="tag">Wordpress</a></li>
-                    <li><a href="#" class="tag">Ruby On Rails</a></li>
-                </ul>
-                </div>
-                <div class="header">Database Management System</div>
-                <div class="description">
-                  <ul class="tags">
-                    <li><a href="#" class="tag">Oracle</a></li>
-                    <li><a href="#" class="tag">MangoDB</a></li>
-                    <li><a href="#" class="tag">SQL Server</a></li>
-                    <li><a href="#" class="tag">DAX</a></li>
-                    <li><a href="#" class="tag">NoSql</a></li>
-                </ul>
-                </div>
-              </div>
+            <div class="hidden">
+              <input type="text" class="form-control" id="human" name="human" placeholder="">
             </div>
-
-
-            <div class="card">
-              <div class="content">
-                <div class="header">Others</div>
-                <div class="description">
-                  <ul class="tags">
-                    <li><a href="#" class="tag">Agile/Scrum</a></li>
-                    <li><a href="#" class="tag">Datawarehouse</a></li>
-                    <li><a href="#" class="tag">Tableau</a></li>
-                    <li><a href="#" class="tag">Data Management</a></li>
-                    <li><a href="#" class="tag">Project Management</a></li>
-                    <li><a href="#" class="tag">PowerBI</a></li>
-                    <li><a href="#" class="tag">Requirements analysis</a></li>
-                    <li><a href="#" class="tag">Cloud/Docker</a></li>
-                </ul>
-                </div>
-              </div>
+            <div class="wow fadeInUp" data-wow-delay="1s">
+              <button type="submit" id="submit" name="submit" class="btn btn-lg">SEND MESSAGE</button>
             </div>
-</div>
+          </form>
+          <br>
+        </div> -->
+      </div>
+    </div>
+    <!-- end section -->
 
+    <!-- begin section -->
 
-
+    <div class="section fp-auto-height">
+      <div class="footer">
+        <p>CONNECT WITH ME</p>
+        <div class="social-links">
+          <span><a href="https://www.linkedin.com/in/marwanechahoud" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a></span>
+          <span><a target="_blank" href="https://twitter.com/ChahoudMarwane" target="_blank"><i class="fab fa-twitter fa-2x"></i></a></span>
+          <span><a href="https://github.com/mjrlgue" target="_blank"><i class="fab fa-github fa-2x"></i></a></span>
         </div>
+      </div>
+    </div>
+    <!-- end section -->
 
   </div>
-
-
-  <div class="sn-slide" sn-id="fadeIn">
-    <div class="container-edu">
-     <span id="title">Education</span>
-     <div class="timeline-block timeline-block-right">
-        <div class="marker"></div>
-        <div class="timeline-content">
-           <h3>2018-2020</h3>
-           <span>Master Big Data, </span><span class="location"><i>University of Pau and Pays de l'Adour, France</i></span>
-           <p>The professions targeted by this training concern the entire chain of storage, processing and valuation of data. In particular those which address the technical and methodological aspects related to the hardware or software infrastructure, the algorithms of processing and predicting, the development and the exploitation of the results. The training targets the jobs of Data Analyst and Data Scientist but also aims to meet the challenge exposed to research by Big Data.</p>
-        </div>
-     </div>
-
-     <div class="timeline-block timeline-block-left">
-        <div class="marker"></div>
-        <div class="timeline-content">
-           <h3>2019</h3>
-           <span>Python 3 certification + Datascience ecosystem, </span><span class="location"><i>www.fun-mooc.fr</i></span>
-           <p>The aim of this mooc is to know the basics about python 3 and manipulate advanced API, functions and libraries, also pandas and sickit-learn</p>
-        </div>
-     </div>
-
-     <div class="timeline-block timeline-block-right">
-        <div class="marker"></div>
-        <div class="timeline-content">
-           <h3>2013-2018</h3>
-           <span>Software engineer and mobile developer, </span><span class="location"><i>National School of Applied Science, Morocco</i></span>
-            <p>During 5 years, starting from theoritical courses until applied ones, the aim was to be able to develop and maintain software applications, by applying software methodologies. Therefore, we worked on a real use-case-project, whether Web or mobile apps, also high level and fine grained database administration.</p>
-          </div>
-     </div>
-
-     <!-- <div class="timeline-block timeline-block-left">
-        <div class="marker"></div>
-        <div class="timeline-content">
-           <h3>Fourth Year</h3>
-           <span>Some work experience</span>
-           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate.</p>
-        </div>
-     </div> -->
-
-     <!-- <div class="timeline-block timeline-block-right">
-        <div class="marker"></div>
-        <div class="timeline-content">
-           <h3>Fifth Year</h3>
-           <span>Some work experience</span>
-           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate.</p>
-        </div>
-     </div>
-  </div> -->
-
-
-
-
-
-
-
-
-  </div>
-</div>
-
-
-  <div class="sn-slide projectbg">
-    <span id="title">Experiences</span>
-    <div class="cent">
-    <div class="card-container ui centered cards">
-      <div class="ui card fadein">
-        <div class="content">
-          <i class="right floated star icon"></i>
-          <div class="header">Elastic on Kubernetes</div>
-          <div class="meta" id="exp1"></div>
-          <div class="description">
-            <li>Develop Elastic on a Kubernetes Environment</li>
-            <li>Help and support project use-case (troubleshooting & creating PoC)</li>
-            <li>Maintain the environment up and running</li>
-            <li>Develop the observability & ECK offer</li>
-            <li>Animate and inform the <i>Elastic Community</i> @Orange Business Services</li>
-          </div>
-        </div>
-        <div class="extra content">
-          <i class="check icon"></i>
-          <ul class="tags">
-            <li><a href="#" class="tag">Elastic</a></li>
-            <li><a href="#" class="tag">ECK</a></li>
-            <li><a href="#" class="tag">Observability</a></li>
-            <li><a href="#" class="tag">Kubernetes</a></li>
-            <li><a href="#" class="tag">OpenTelemetry</a></li>
-            <li><a href="#" class="tag">Docker</a></li>
-          </ul>
-        </div>
-    </div>
-
-  <div class="ui card fadein">
-    <div class="content">
-    <div class="header">Elastic</div>
-    <div class="meta" id="exp2"></div>
-    <div class="description">
-      <li>Study the mapping of indexes</li>
-      <li>Integrate external data sources to an elastic cluster</li>
-      <li>Develop ingest pipeline on elasticsearch/logstash</li>
-      <li>Develop and design of dashboards on Kibana</li>
-      <li>Create a PoC around Elastic Observability</li>
-      <li>Automation of deploying Elastic using Terraform/Ansible</li>
-    </div>
-    </div>
-    <div class="extra content">
-    <i class="check icon"></i>
-    <ul class="tags">
-      <li><a href="#" class="tag">Elastic</a></li>
-      <li><a href="#" class="tag">Kubernetes</a></li>
-      <li><a href="#" class="tag">Docker</a></li>
-      <li><a href="#" class="tag">Kibana</a></li>
-      <li><a href="#" class="tag">Logstash</a></li>
-      <li><a href="#" class="tag">Terraform</a></li>
-      <li><a href="#" class="tag">Ansible</a></li>
-    </ul>
-    </div>
-  </div>
-
-  <div class="ui card fadein">
-    <div class="content">
-    <div class="header">Cloud: Azure</div>
-    <div class="meta" id="exp3"></div>
-    <div class="description">
-      <li>Creation and integration of pipelines on Data factory</li>
-      <li>Develop Spark notebooks</li>
-      <li>Automation and program tasks on Logic Apps</li>
-      <li>Implementing a REST API on Azure Function</li>
-      <li>Industrialization of Azure services as IaaC</li>
-      <li>CI/CD of Azure services on Azure DevOps</li>
-    </div>
-    </div>
-    <div class="extra content">
-    <i class="check icon"></i>
-    <ul class="tags">
-      <li><a href="#" class="tag">Azure</a></li>
-      <li><a href="#" class="tag">Azure function</a></li>
-      <li><a href="#" class="tag">ETL</a></li>
-      <li><a href="#" class="tag">Databricks</a></li>
-      <li><a href="#" class="tag">Logic Apps</a></li>
-      <li><a href="#" class="tag">Data factory</a></li>
-      <li><a href="#" class="tag">Azure DevOps</a></li>
-      <li><a href="#" class="tag">IaaC</a></li>
-    </ul>
-    </div>
-  </div>
-
-
-<div class="ui card fadein">
-  <div class="content">
-  <div class="header">Internship: Splunk / GDPR</div>
-  <div class="meta" id="exp4"></div>
-  <div class="description">
-    <li>Implementing a PoC around GDPR on Splunk</li>
-    <li>Creation and design of Splunk indexes</li>
-    <li>Developing Splunk dashboards using SplunkJs</li>
-    <li>Developing of a python script for data ingestion</li>
-    <li>Deployment on AWS EC2</li>
-  </div>
-  </div>
-  <div class="extra content">
-  <i class="check icon"></i>
-  <ul class="tags">
-    <li><a href="#" class="tag">Splunk</a></li>
-    <li><a href="#" class="tag">GDPR</a></li>
-    <li><a href="#" class="tag">SplunkJS</a></li>
-    <li><a href="#" class="tag">Python</a></li>
-    <li><a href="#" class="tag">Splunk administration</a></li>
-    <li><a href="#" class="tag">AWS: EC2</a></li>
-  </ul>
-  </div>
-</div>
-
-    </div>
-    </div>
-  </div>
-
-  <div class="sn-slide contactbg">
-    <span id="title">Contact me</span>
-      <!-- LinkedIn badge div -->
- <!--  <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="fr_FR" data-type="horizontal" data-theme="light" data-vanity="marwane-chahoud-199409126"><a class="LI-simple-link" href='https://fr.linkedin.com/in/marwane-chahoud-199409126?trk=profile-badge'>Marwane Chahoud</a></div> -->
-  
-    <div id="container-cme"><!-- flex container -->
-      <!-- <div class="ui cards"> -->
-        <div class="box" id=""><!-- flex item -->
-            <p id="looking">I'm looking forward to getting in touch with you
-              <!-- Example #1 - no styling -->
-<!-- Made with ❤ in Switzerland
-
-<!-- Example #2 - inline-styled ❤ -->
-<!-- Made with <span style="color: #e25555;">&#9829;</span> in Switzerland
-Made with <span style="color: #e25555;">&hearts;</span> in Switzerland -->
-
-        </div>
-
-        <div class="box" id="redbox"><!-- flex item -->
-            <div class="input-group">
-            <input id="foo" type="text" value="marwane.chahoud@gmail.com">
-              <span class="input-group-button">
-                <button class="btn" type="button" data-clipboard-demo="" data-clipboard-target="#foo">
-                  <img class="clippy" src="https://clipboardjs.com/assets/images/clippy.svg" width="13" alt="Copy to clipboard">
-                </button>
-              </span>
-            </div>
-        </div>
-
-        <div class="box toBottom center" data-aos="fade-up">
-        <style>.heart{color:#e25555;}</style>
-        <!-- Made with <span class="heart">❤</span> in France -->
-        <!-- <span class="octicon mega-octicon octicon-code"> with <span class="heart octicon-heart"></span> in France.</span -->
-           Made with <span class="heart" id="lilFlick" onclick="changeText()">❤</span>
-        </div>
-    </div>
-  </div>
-
+  <!-- end fullpage -->
+</body>
+<!-- partial -->
+<script src='https://code.jquery.com/jquery-2.1.1.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.4/jquery.fullPage.min.js'></script>
+<script  src="js/script.js"></script>
 <script>
-  function changeText(){
-    var span = document.getElementById("lilFlick");
-    console.log(span.textContent);
-    if('❤' == span.textContent){
-      span.textContent='💪';
-    } else {
-      span.textContent='❤';
-    }
+  function clearTooltip(e) {
+    e.currentTarget.setAttribute('class', 'btn');
+    e.currentTarget.removeAttribute('aria-label');
   }
-</script>
 
-  <script>
-    $(function(){
-      Sailnote.init();
+  function showTooltip(elem, msg) {
+    elem.setAttribute('class', 'btn tooltipped tooltipped-s');
+    elem.setAttribute('aria-label', msg);
+  }
 
-      Sailnote.on('enter', 'fadeIn', function(note){
-        note.css('opacity', '0');
-        note.animate({'opacity': '0.8'}, 2000);
-      });
-    });
-  </script>
+  var clipboard = new ClipboardJS('.btn');
 
-  <!-- scripts for projects time -->
-  <script>
-    document.getElementById("exp1").innerHTML = "Started: " + moment("01/02/2022", "DD/MM/YYYY").fromNow();
-    document.getElementById("exp2").innerHTML = "Project duration: "+ Math.round(moment.duration(moment("01/01/2022", 'DD/MM/YYYY').diff(moment("01/03/2021", 'DD/MM/YYYY'))).asMonths())+" months";
-    document.getElementById("exp3").innerHTML = "Project duration: "+ Math.round(moment.duration(moment("01/02/2021", 'DD/MM/YYYY').diff(moment("01/09/2020", 'DD/MM/YYYY'))).asMonths())+" months";
-    document.getElementById("exp4").innerHTML = "Project duration: "+ Math.round(moment.duration(moment("01/08/2020", 'DD/MM/YYYY').diff(moment("01/03/2020", 'DD/MM/YYYY'))).asMonths())+" months";
-  </script>
-
-  <!-- fadein/out ui-cards -->
-  <script>
-  $(window).on("load",function() {
-  $(window).scroll(function() {
-    var windowBottom = $(this).scrollTop() + $(this).innerHeight();
-    $(".fadein").each(function() {
-      /* Check the location of each desired element */
-      var objectBottom = $(this).offset().top + $(this).outerHeight();
-
-      /* If the element is completely within bounds of the window, fade it in */
-      if (objectBottom < windowBottom) { //object comes into view (scrolling down)
-        if ($(this).css("opacity")==0) {$(this).fadeTo(500,1);}
-      } else { //object goes out of view (scrolling up)
-        if ($(this).css("opacity")==1) {$(this).fadeTo(500,0);}
-      }
-    });
-  }).scroll(); //invoke scroll-handler on page-load
-});
-  </script>
-
-</script>
-<!-- mail clipboard -->
-<script>
-var clipboardDemos = new Clipboard('[data-clipboard-demo]');
-
-clipboardDemos.on('success', function(e) {
-e.clearSelection();
-
-console.info('Action:', e.action);
-console.info('Text:', e.text);
-console.info('Trigger:', e.trigger);
-
-showTooltip(e.trigger, 'Copied!');
+clipboard.on('success', function(e) {
+    console.info('Action:', e.action);
+    console.info('Text:', e.text);
+    console.info('Trigger:', e.trigger);
+    showTooltip(e.trigger, 'Copied!');
+    e.clearSelection();
 });
 
-clipboardDemos.on('error', function(e) {
-console.error('Action:', e.action);
-console.error('Trigger:', e.trigger);
-
-showTooltip(e.trigger, fallbackMessage(e.action));
-});
-
-// tooltips.js
-
-var btns = document.querySelectorAll('.btn');
-
-for (var i = 0; i < btns.length; i++) {
-btns[i].addEventListener('mouseleave', clearTooltip);
-btns[i].addEventListener('blur', clearTooltip);
-}
-
-function clearTooltip(e) {
-e.currentTarget.setAttribute('class', 'btn');
-e.currentTarget.removeAttribute('aria-label');
-}
-
-function showTooltip(elem, msg) {
-elem.setAttribute('class', 'btn tooltipped tooltipped-s');
-elem.setAttribute('aria-label', msg);
-}
-</script>
-
-<script>
-AOS.init({
-  // Global settings:
-  disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
-  startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
-  initClassName: 'aos-init', // class applied after initialization
-  animatedClassName: 'aos-animate', // class applied on animation
-  useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
-  disableMutationObserver: false, // disables automatic mutations' detections (advanced)
-  debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
-  throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
-
-
-  // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
-  offset: 120, // offset (in px) from the original trigger point
-  delay: 0, // values from 0 to 3000, with step 50ms
-  duration: 1400, // values from 0 to 3000, with step 50ms
-  easing: 'ease', // default easing for AOS animations
-  once: false, // whether animation should happen only once - while scrolling down
-  mirror: false, // whether elements should animate out while scrolling past them
-  anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
-
+clipboard.on('error', function(e) {
+    console.error('Action:', e.action);
+    console.error('Trigger:', e.trigger);
+    showTooltip(e.trigger, fallbackMessage(e.action));
 });
 </script>
 </body>
